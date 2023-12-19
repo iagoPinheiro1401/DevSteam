@@ -1,0 +1,54 @@
+.saleCard {
+    background: linear-gradient(180deg, #19587B 0%, #2B87AE 100%);
+    width: 250px;
+}
+
+.info {
+    padding: 20px;
+    margin: 0;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.priceCard {
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #344654;
+    margin: 15px 0;
+}
+
+.percent {
+    height: 100%;
+    font-weight: 700;
+    font-size: 24px;
+    color: #BEEB14;
+    padding: 5px;
+    background-color: #4C6B22;
+    display: flex;
+    align-items: center;
+}
+
+.prices {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.oldPrice {
+    text-decoration-line: line-through;
+    font-size: 12px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.newPrice {
+    color: #BEEB14;
+    font-size: 16px;
+    font-weight: 700;
+}
