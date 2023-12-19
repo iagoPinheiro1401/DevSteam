@@ -1,0 +1,14 @@
+.input {
+    background: #316282;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.input::placeholder {
+    color: white;
+}
