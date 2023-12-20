@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import { useState } from 'react'
 
-import Navbar from '@/components/navbar/Navbar'
-import Subtitle from '@/components/tipography/subtitle/subtitle'
-import Container from '@/components/container/container'
-import SaleCard from '@/components/cards/saleCard/saleCard'
+import Navbar from "../components/navbar/navbar"
+import Subtitle from "../components/tipography/subtitle/subtitle"
+import Container from "../components/container/container"
+import SaleCard from "../components/cards/saleCard/saleCard"
 import styles from "@/styles/index.module.css"
-import GameCard from '@/components/cards/gameCard/gameCard'
+import GameCard from "../components/cards/gameCard/gameCard"
 
 export default function Home() {
   const [cart, setCart] = useState([])
